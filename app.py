@@ -74,7 +74,7 @@ def movimientos():
         registro["Hora"]       = fecha_hora.strftime("%H:%M:%S")
     """
 
-    return render_template("movimientos.html", productos=registros)
+    return render_template("movimientos.html", moviminetostos=registros)
 
 @app.route("/productos/buscar", methods=["GET"])
 def buscarProductos():
